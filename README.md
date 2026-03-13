@@ -1,1 +1,101 @@
-# FinanzApp-Desktop
+<h1 align="center">💳 FinanzApp - Desktop</h1>
+
+<div align="center">
+    <a href="#" target="_blank" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/💻%20Repo%20Principal-FinanzApp-0b7285?style=for-the-badge&logo=github&logoColor=white" alt="Repo FinanzApp"/>
+    </a>
+    <a href="#" target="_blank" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/📂%20Carpeta%20del%20Proyecto-Google%20Drive-34a853?style=for-the-badge&logo=googledrive&logoColor=white" alt="Carpeta del proyecto"/>
+    </a>
+</div>
+
+<p align="center">
+    <a href="https://github.com/agussantinelli" target="_blank" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/👤%20Agustín%20Santinelli-agussantinelli-000000?style=for-the-badge&logo=github&logoColor=white" alt="Agus"/>
+    </a>
+</p>
+
+<p align="center">
+    <img src="https://img.shields.io/badge/.NET-8.0-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET Badge"/>
+    <img src="https://img.shields.io/badge/Desktop-WinUI%203-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="WinUI 3 Badge"/>
+    <img src="https://img.shields.io/badge/Framework-Windows%20App%20SDK-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="WinSDK Badge"/>
+    <img src="https://img.shields.io/badge/DB-SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="SQL Server Badge"/>
+    <img src="https://img.shields.io/badge/ORM-EF%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="EF Core Badge"/>
+    <img src="https://img.shields.io/badge/UI-Mica%20Material-0078D4?style=for-the-badge" alt="Mica Badge"/>
+    <img src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white" alt="Visual Studio Badge"/>
+</p>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/License-GPLv3-blue.svg?style=for-the-badge&logo=gnu&logoColor=white" alt="GPLv3 License"/>
+</div>
+
+<hr>
+
+<h2>🎯 Objetivo</h2>
+
+<p>
+    <strong>FinanzApp-Desktop</strong> es una solución de <strong>gestión de activos financieros e inversiones</strong> de alto rendimiento. 
+    Diseñada específicamente para Windows 11, la aplicación permite realizar un seguimiento exhaustivo de carteras de inversión (Stocks, Crypto, Bonos), calculando métricas de Profit/Loss en tiempo real y centralizando el historial transaccional en un motor robusto de SQL Server.
+</p>
+
+<h2>🚀 Características del MVP</h2>
+
+<ul>
+    <li><b>📈 Dashboard de Inversiones:</b> Resumen visual del valor total de la cartera y rendimiento porcentual.</li>
+    <li><b>💸 Control Transaccional:</b> Registro detallado de compras, ventas y comisiones operativas.</li>
+    <li><b>🏛️ Motor Empresarial:</b> Implementación con <b>SQL Server</b> para integridad de datos y consultas complejas.</li>
+    <li><b>✨ Experiencia Windows 11:</b> Interfaz moderna utilizando materiales <i>Mica</i> y <i>Acrylic</i> nativos de WinUI 3.</li>
+</ul>
+
+<h2>🛠️ Stack Técnico y Arquitectura</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Capa</th>
+            <th>Tecnología / Herramienta</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><b>Frontend (UI)</b></td>
+            <td>WinUI 3 (Windows App SDK) con Win2D para gráficos.</td>
+        </tr>
+        <tr>
+            <td><b>Lógica de Negocio</b></td>
+            <td>C# 12 bajo patrón MVVM (CommunityToolkit.Mvvm).</td>
+        </tr>
+        <tr>
+            <td><b>Acceso a Datos</b></td>
+            <td>Entity Framework Core (EF Core) 8.0.</td>
+        </tr>
+        <tr>
+            <td><b>Base de Datos</b></td>
+            <td>Microsoft SQL Server (LocalDB / Express).</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>🏗️ Estructura de Capas (Modo Constructor)</h2>
+<p>Para mantener la precisión financiera y la fluidez de la UI, el proyecto se organiza así:</p>
+
+<ul>
+    <li>📂 <b>Models/</b>: Definición de <code>Asset</code>, <code>Transaction</code> y <code>Portfolio</code>.</li>
+    <li>📂 <b>Services/</b>: <code>PortfolioService</code> (matemática financiera) y <code>DataService</code> (EF Core).</li>
+    <li>📂 <b>ViewModels/</b>: Controladores de estado para el Dashboard e Historial.</li>
+    <li>📂 <b>Views/</b>: Páginas XAML optimizadas para navegación lateral (NavigationView).</li>
+    <li>📂 <b>Helpers/</b>: Formateadores de moneda y conversores de valor dinámico.</li>
+</ul>
+
+<hr>
+
+<h2 align="center">📋 Definición de Trade-offs</h2>
+<p align="center">
+    <i>Pendiente de confirmación para el despliegue de la base de datos:</i><br>
+    <b>SQL Server:</b> ¿Utilizaremos LocalDB para desarrollo o una instancia remota de Azure SQL? <br>
+    <b>Gráficos:</b> ¿Implementamos LiveCharts2 para una visualización dinámica de la evolución del Portfolio?
+</p>
+
+<div align="center">
+    <sub>FinanzApp - Seguridad y Precisión en tus Finanzas Personales</sub>
+</div>
