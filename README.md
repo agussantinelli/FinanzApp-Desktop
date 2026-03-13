@@ -89,13 +89,6 @@
 
 <hr>
 
-<h2 align="center">📋 Definición de Trade-offs</h2>
-<p align="center">
-    <i>Pendiente de confirmación para el despliegue de la base de datos:</i><br>
-    <b>SQL Server:</b> ¿Utilizaremos LocalDB para desarrollo o una instancia remota de Azure SQL? <br>
-    <b>Gráficos:</b> ¿Implementamos LiveCharts2 para una visualización dinámica de la evolución del Portfolio?
-</p>
-
 <div align="center">
     <sub>FinanzApp - Seguridad y Precisión en tus Finanzas Personales</sub>
 </div>
