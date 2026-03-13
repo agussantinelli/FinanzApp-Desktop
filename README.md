@@ -1,7 +1,7 @@
 <h1 align="center">💳 FinanzApp - Desktop</h1>
 
 <div align="center">
-    <a href="#" target="_blank" style="text-decoration: none;">
+    <a href="https://github.com/agussantinelli/FinanzApp-Desktop" target="_blank" style="text-decoration: none;">
         <img src="https://img.shields.io/badge/💻%20Repo%20Principal-FinanzApp-0b7285?style=for-the-badge&logo=github&logoColor=white" alt="Repo FinanzApp"/>
     </a>
     <a href="#" target="_blank" style="text-decoration: none;">
