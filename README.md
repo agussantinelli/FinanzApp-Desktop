@@ -21,7 +21,6 @@
     <img src="https://img.shields.io/badge/Framework-Windows%20App%20SDK-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="WinSDK Badge"/>
     <img src="https://img.shields.io/badge/DB-SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="SQL Server Badge"/>
     <img src="https://img.shields.io/badge/ORM-EF%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="EF Core Badge"/>
-    <img src="https://img.shields.io/badge/UI-Mica%20Material-0078D4?style=for-the-badge" alt="Mica Badge"/>
     <img src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white" alt="Visual Studio Badge"/>
 </p>
 
