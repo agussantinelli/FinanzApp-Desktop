@@ -1,0 +1,31 @@
+## Visual Studio Temp Files
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Windows App SDK / WinUI 3 Specific
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
+*.msix
+*.appx
+*.appxbundle
+*.msixbundle
+
+## Entity Framework Core
+*.db
+*.db-shm
+*.db-wal
+
+## SQL Server
+*.mdf
+*.ldf
+
+## OS Files
+Thumbs.db
+desktop.ini
