@@ -75,16 +75,20 @@
     </tbody>
 </table>
 
-<h2>🏗️ Estructura de Capas (Modo Constructor)</h2>
-<p>Para mantener la precisión financiera y la fluidez de la UI, el proyecto se organiza así:</p>
+<h2>📂 Estructura del Proyecto</h2>
 
-<ul>
-    <li>📂 <b>Models/</b>: Definición de <code>Asset</code>, <code>Transaction</code> y <code>Portfolio</code>.</li>
-    <li>📂 <b>Services/</b>: <code>PortfolioService</code> (matemática financiera) y <code>DataService</code> (EF Core).</li>
-    <li>📂 <b>ViewModels/</b>: Controladores de estado para el Dashboard e Historial.</li>
-    <li>📂 <b>Views/</b>: Páginas XAML optimizadas para navegación lateral (NavigationView).</li>
-    <li>📂 <b>Helpers/</b>: Formateadores de moneda y conversores de valor dinámico.</li>
-</ul>
+<pre><code>FinanzApp-Desktop/
+├── .github/                   # Workflows de CI/CD (GitHub Actions)
+├── FinanzApp.Desktop/         # Aplicación de Escritorio (WinUI 3)
+│   ├── Assets/                # Iconos, imágenes y recursos visuales
+│   ├── Properties/            # Perfiles de publicación y configuración
+│   ├── App.xaml               # Inicio de la app y recursos globales
+│   ├── MainWindow.xaml        # Ventana principal (Dashboard e Historial)
+│   └── app.manifest           # Configuración de compatibilidad con Windows
+├── FinanzApp.slnx             # Archivo de solución de Visual Studio
+├── LICENSE                    # Licencia del proyecto (GPLv3)
+└── README.md                  # Documentación y guía del usuario
+</code></pre>
 
 <hr>
 
