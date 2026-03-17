@@ -1,1 +1,13 @@
-<Solution />
+<Solution>
+  <Configurations>
+    <Platform Name="ARM64" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="FinanzApp.Desktop/FinanzApp.Desktop.csproj" Id="34acae60-2e77-40ac-ae4c-1263340e3763">
+    <Platform Solution="*|ARM64" Project="ARM64" />
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+    <Deploy />
+  </Project>
+</Solution>
