@@ -90,6 +90,17 @@
 └── README.md                  # Documentación y guía del usuario
 </code></pre>
 
+<h2>🏗️ Arquitectura Proyectada</h2>
+<p>Para mantener la precisión financiera y la fluidez de la UI, se plantea la siguiente organización por capas:</p>
+
+<ul>
+    <li>📂 <b>Models/</b>: Definición de <code>Asset</code>, <code>Transaction</code> y <code>Portfolio</code>.</li>
+    <li>📂 <b>Services/</b>: <code>PortfolioService</code> (matemática financiera) y <code>DataService</code> (EF Core).</li>
+    <li>📂 <b>ViewModels/</b>: Controladores de estado para el Dashboard e Historial.</li>
+    <li>📂 <b>Views/</b>: Páginas XAML optimizadas para navegación lateral (NavigationView).</li>
+    <li>📂 <b>Helpers/</b>: Formateadores de moneda y conversores de valor dinámico.</li>
+</ul>
+
 <hr>
 
 <div align="center">
